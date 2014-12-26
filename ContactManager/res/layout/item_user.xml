@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contactView"
+    android:layout_width="match_parent"
+    android:layout_height="70dp" >
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="2dp"
+        android:maxWidth="2dp"
+        android:src="@drawable/ic_action_person" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:singleLine="true"
+        android:layout_toEndOf="@+id/lastname"
+        android:layout_toRightOf="@+id/user_icon"
+        android:text="@string/firstNameHint"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignLeft="@+id/firstName"
+        android:layout_below="@+id/user_icon"
+        android:text="@string/phoneNumberHint" />
+
+</RelativeLayout>

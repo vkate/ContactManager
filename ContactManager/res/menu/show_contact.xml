@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.contactmanager.ShowContact" >
+
+    <item
+        android:id="@+id/edit_contact"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/edit_contact"/>
+    
+    <item
+        android:id="@+id/delete_contact"
+        android:icon="@drawable/ic_action_discard"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/delete_contact"/>
+    
+</menu>
